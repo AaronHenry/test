@@ -1,0 +1,568 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Aaron Henry || Data Engineer</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    (function (f, b) {
+      if (!b.__SV) {
+        var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+          function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+          for (h = 0; h < i.length; h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++)b(j[c]); return d }; b._i.push([e, f, c])
+        }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+          MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+      }
+    })(document, window.mixpanel || []);
+
+    // Enabling the debug mode flag is useful during implementation,
+    // but it's recommended you remove it for production
+    //mixpanel.init('a0e44bc40ce522ddc602a4a36d2b6b4b', { debug: true });
+    //mixpanel.track('homepage visited');
+
+    //mixpanel.track(
+    //  "Clicked Link",
+    //  { "link": "Contact" }
+    //);
+  </script>
+
+
+
+</head>
+
+<body>
+
+  <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand waves-effect" href="aaronhenry.github.io" target="_blank">
+          <strong class="blue-text">A P H</strong>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/aaronhenry" class="nav-link border border-light rounded waves-effect"
+                target="_blank">
+                <i class="fab fa-linkedin"></i> Aaron Paul Henry
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/AaronHenry" class="nav-link border border-light rounded waves-effect"
+                target="_blank">
+                <i class="fab fa-github mr-2"></i>Github
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5 pt-5">
+    <div class="container">
+
+      <!--Section: Jumbotron-->
+      <section class="card wow fadeIn"
+        style="background-image: url(https://img.freepik.com/free-photo/shiny-silver-glitter-textured_53876-95532.jpg?size=626&ext=jpg);">
+
+        <!-- Content -->
+        <div class="card-body text-charcoal text-center py-5 px-5 my-5">
+
+          <h1 class="mb-4">
+            <strong>Aaron Paul Henry</strong>
+          </h1>
+          <h1 class="mb-4">
+            Data Engineer // New York City
+          </h1>
+
+        </div>
+        <!-- Content -->
+      </section>
+      <!--Section: Jumbotron-->
+
+      <hr class="my-5">
+
+      <!--Section: Cards-->
+      <section class="text-center">
+
+        <!-- row 1 -->
+        <div class="row mb-4 wow fadeIn">
+
+          <!-- col 1 -->
+          <div class="col-sm-12 col-md-6 mb-4">
+
+            <!--Card-->
+            <div class="card-body text-charcoal text-center">
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h3 class="card-title">Tools</h3>
+                <!--Text-->
+                <p class="card-text">Modern data engineering requires technical knowledge of a wide variety of tools.
+                  Below are a few I've added to my arsenal.
+                </p>
+                <ul class="list-group" style="text-align: left;">
+                  <li class="list-group-item list-group-flush">
+                    <div class="md-v-line"></div><i class="fas fa-code mr-5"></i>Python //
+                    SQL // R
+                  </li>
+                  <li class="list-group-item">
+                    <div class="md-v-line"></div><i class="fas fa-cogs mr-5"></i>Fivetran // DBT // Snowflake
+                  </li>
+                  <li class="list-group-item">
+                    <div class="md-v-line"></div><i class="fas fa-cloud mr-5"></i>AWS Suite (S3 // RDS // Redshift)
+                  </li>
+                  <li class="list-group-item">
+                    <div class="md-v-line"></div><i class="fas fa-database mr-5"></i>Postgresql // MySQL // Sqlite
+                  </li>
+                  <li class="list-group-item">
+                    <div class="md-v-line"></div><i class="fas fa-clock mr-5"></i>Apache Airflow
+                  </li>
+                  <li class="list-group-item">
+                    <div class="md-v-line"></div><i class="fab fa-chrome mr-5"></i>HTML // CSS // JS
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--col 2-->
+          <div class="col-sm-12 col-md-6 mb-4">
+            <div class="card-body text-charcoal text-center">
+              <div class="card-body">
+                <!--Title-->
+                <h3 class="card-title">Python+</h3>
+                <!--Text-->
+                <p class="card-text">Python is ubiquitous in the DE world. While already suseful as a base language,
+                  Python
+                  really becomes valuable when external libraries are introduced. These allow Python to
+                  run, monitor, and automate processes from many of the tools on the left.
+                </p>
+
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Libraries</th>
+                    <th scope="col">Functionality</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">pandas, numpy, matplotlib, plotly, scipy, scikit-learn</th>
+                    <td>data handling, visualization, machine learning</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">airflow-operators, boto3</th>
+                    <td>connecting to and running tools</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">sqlalchemy, sqlite3, psycopg2</th>
+                    <td>object relational mapping and databases</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">requests, jsonify, beautifulsoup, selenium</th>
+                    <td>web scraping and automation</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">flask, django, pyqt5, tkinter</th>
+                    <td>web apps and gui</td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+            </div>
+
+          </div>
+        </div>
+        <!--Grid row-->
+        <div class="row mb-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay">
+                <div class="embed-responsive embed-responsive-16by9 rounded-top">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">MDB Quick Start</h4>
+                <!--Text-->
+                <p class="card-text">Get started with MDBootstrap, the world's most popular Material Design framework
+                  for building
+                  responsive, mobile-first sites.</p>
+                <p class="card-text">
+                  <strong>5 minutes, a few clicks and... done. You will be surprised at how easy it is.</strong>
+                </p>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg"
+                  class="card-img-top" alt="">
+                <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Bootstrap Automation</h4>
+                <!--Text-->
+                <p class="card-text">Learn how to create a smart website which learns your user and reacts properly to
+                  his behavior.</p>
+                <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank"
+                  class="btn btn-primary btn-md">Start tutorial
+                  <i class="fas fa-play ml-2"></i>
+                </a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="https://mdbootstrap.com/wp-content/uploads/2018/01/push-fb.jpg" class="card-img-top" alt="">
+                <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Push notifications</h4>
+                <!--Text-->
+                <p class="card-text">Push messaging provides a simple and effective way to re-engage with your users
+                  and in this
+                  tutorial you'll learn how to add push notifications to your web app</p>
+                <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank"
+                  class="btn btn-primary btn-md">Start
+                  tutorial
+                  <i class="fas fa-play ml-2"></i>
+                </a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row mb-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-angular.jpg" class="card-img-top"
+                  alt="">
+                <a href="https://mdbootstrap.com/angular/" target="_blank">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">MDB with Angular</h4>
+                <!--Text-->
+                <p class="card-text">Built with Angular 5, Bootstrap 4 and TypeScript. CLI version available. </p>
+                <a href="https://mdbootstrap.com/angular/" target="_blank" class="btn btn-primary btn-md">Free
+                  download
+                  <i class="fas fa-download ml-2"></i>
+                </a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-react.jpg" class="card-img-top"
+                  alt="">
+                <a href="https://mdbootstrap.com/react/" target="_blank">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">MDB with React</h4>
+                <!--Text-->
+                <p class="card-text">Based on the latest Bootstrap 4 and React 16. </p>
+                <a href="https://mdbootstrap.com/react/" target="_blank" class="btn btn-primary btn-md">Free download
+                  <i class="fas fa-download ml-2"></i>
+                </a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-vue.jpg" class="card-img-top" alt="">
+                <a href="https://mdbootstrap.com/vue/" target="_blank">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">MDB with Vue</h4>
+                <!--Text-->
+                <p class="card-text">Based on the latest Bootstrap 4 and Vue 2.5.7. </p>
+                <a href="https://mdbootstrap.com/vue/" target="_blank" class="btn btn-primary btn-md">Free download
+                  <i class="fas fa-download ml-2"></i>
+                </a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <!--Pagination-->
+        <nav class="d-flex justify-content-center wow fadeIn">
+          <ul class="pagination pg-blue">
+
+            <!--Arrow left-->
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+
+            <li class="page-item active">
+              <a class="page-link" href="#">1
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">5</a>
+            </li>
+
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!--Pagination-->
+
+      </section>
+      <!--Section: Cards-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+        target="_blank" role="button">Download MDB
+        <i class="fas fa-download ml-2"></i>
+      </a>
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank"
+        role="button">Start
+        free tutorial
+        <i class="fas fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/MDBootstrap" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+        <i class="fab fa-dribbble mr-3"></i>
+      </a>
+
+      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+        <i class="fab fa-pinterest mr-3"></i>
+      </a>
+
+      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+
+      <a href="http://codepen.io/mdbootstrap/" target="_blank">
+        <i class="fab fa-codepen mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+
+
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+
+  <script src="./js/index.js"> </script>
+  <script src="./js/mixpanel.js"> </script>
+</body>
+
+</html>
